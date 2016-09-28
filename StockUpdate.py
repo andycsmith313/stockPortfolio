@@ -20,7 +20,7 @@ def historicalDataGET(stockTicker,startDate,endDate):
 
 def datePriceDF():
 	'''
-	complete this
+	Added more detail
 	'''
 	for stock in stockTicker:
 		historicalData = historicalDataGET(stock,startDate,endDate)
